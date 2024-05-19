@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         (application as FakerApplication).applicationComponent.inject111(this)
         mainViewModel = ViewModelProvider(this, mainViewModelFactory).get(MainViewModel::class.java)
-
+        //Create mainviewmodel instance of the application
         mainViewModel.productsLiveData.observe(this, Observer {
             products.text =  it.joinToString { x -> x.title + "\n\n" }
         })

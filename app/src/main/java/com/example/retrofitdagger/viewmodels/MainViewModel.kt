@@ -11,7 +11,7 @@ class MainViewModel( private val repository: ProductRepository) : ViewModel() {
 
     val productsLiveData : LiveData<List<Product>>
         get() = repository.products
-
+    //initialize the project
     init {
 
         viewModelScope.launch {
