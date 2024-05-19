@@ -20,5 +20,4 @@ class MainViewModel( private val repository: ProductRepository) : ViewModel() {
             repository.getProducts()
         }
     }
-
 }
