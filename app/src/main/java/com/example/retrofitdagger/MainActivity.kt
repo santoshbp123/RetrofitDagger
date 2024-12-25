@@ -20,11 +20,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-<<<<<<< HEAD
         //init
-=======
-        //intitilze code setting
->>>>>>> 888498d8ec5690cff2b574870db5dcac0bf4a67a
+
         (application as FakerApplication).applicationComponent.inject111(this)
         mainViewModel = ViewModelProvider(this, mainViewModelFactory).get(MainViewModel::class.java)
         //Create mainviewmodel instance of the application
