@@ -7,6 +7,7 @@ import retrofit2.http.GET
 interface FakerAPI {
 
     @GET("/products") //initialize api callgit git 12
+
     suspend fun getProducts() : Response<List<Product>>
     /////sanrtoshhhhhh
 }
