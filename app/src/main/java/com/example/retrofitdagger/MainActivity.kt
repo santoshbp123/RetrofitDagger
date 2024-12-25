@@ -28,6 +28,6 @@ class MainActivity : AppCompatActivity() {
             products.text =  it.joinToString { x -> x.title + "\n\n" }
         })
 
-
+         //dfsfdsf
     }
 }
