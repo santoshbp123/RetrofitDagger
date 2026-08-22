@@ -13,5 +13,6 @@ class FakerApplication : Application() {
 
         applicationComponent = DaggerApplicationComponent.builder().build()
         //santosh poojari
+        srrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
     }
 }
