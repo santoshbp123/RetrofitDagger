@@ -12,7 +12,5 @@ class FakerApplication : Application() {
         super.onCreate()
 
         applicationComponent = DaggerApplicationComponent.builder().build()
-        //santosh poojari
-        //Ramesh pujari
     }
 }
